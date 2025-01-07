@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ProjecteCafeteriaRoger" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="SplashTherme" parent="Theme.ProjecteCafeteriaRoger">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+</resources>
