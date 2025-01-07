@@ -10,10 +10,16 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/SplashTherme"
+        android:theme="@style/Theme.ProjecteCafeteriaRoger"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".registre.RegistreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.MainActivity"
             android:exported="true"
             android:theme="@style/SplashTherme">
             <intent-filter>
