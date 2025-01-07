@@ -47,9 +47,6 @@ class MainActivity : AppCompatActivity() {
             } else {
                 Toast.makeText(this, "Usuari o contrassenya incorrectes.", Toast.LENGTH_SHORT).show()
             }
-            val intent = Intent(applicationContext, HomeActivity::class.java)
-            startActivity(intent)
-
         }
         binding.textViewRegistre.setOnClickListener{
             val intent = Intent(applicationContext, RegistreActivity::class.java)

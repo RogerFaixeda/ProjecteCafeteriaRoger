@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menjarsFragment"
+        android:icon="@drawable/menjar"
+        android:title="@string/menjar" />
+
+    <item
+        android:id="@+id/begudesFragment"
+        android:icon="@drawable/beguda"
+        android:title="@string/beguda" />
+
+    <item
+        android:id="@+id/postresFragment"
+        android:icon="@drawable/postre"
+        android:title="@string/postre" />
+
+    <item
+        android:id="@+id/pagamentFragment"
+        android:icon="@drawable/targeta"
+        android:title="@string/pagar" />
+</menu>
